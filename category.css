@@ -1,0 +1,16 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar-brand {
+  color: #f2ad73;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar-brand span {
+  color: #db3635;
+}
+.card-body a {
+  color: black;
+}
+.social-media a {
+  color: black;
+}
