@@ -69,6 +69,15 @@ a:hover {
   box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.04);
 }
 
+/* Navbar */
+.navbar-brand {
+  color: #f2ad73;
+  font-family: "Poppins", sans-serif;
+}
+.navbar-brand span {
+  color: #db3635;
+}
+
 /* Home */
 section.home {
   padding-top: 5rem;
@@ -129,7 +138,7 @@ section.menu .card-menu .item .menu-title {
 
 /* Testimonials */
 section.testimonials {
-  padding-top: 7rem;
+  padding-top: 5rem;
   padding-bottom: 5rem;
 }
 section.testimonials .content-testimonials .name-testimonials {
