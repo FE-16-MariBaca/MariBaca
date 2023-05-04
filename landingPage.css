@@ -43,35 +43,6 @@ a:hover {
   background-color: var(--primary-light-color) !important;
 }
 
-/* Button */
-.btn {
-  padding: 14px 22px;
-  border-radius: 8px;
-  font-size: var(--small-font-size);
-  font-weight: var(--font-medium);
-}
-
-.btn-primary {
-  background-color: var(--primary-color);
-  border: none;
-}
-.btn-primary:hover,
-.btn-primary:focus {
-  filter: drop-shadow(0px 10px 30px rgba(186, 37, 48, 0.15));
-  background-color: var(--primary-color);
-}
-
-.btn-primary-light {
-  background-color: var(--primary-light-color);
-  color: var(--primary-color);
-  border: none;
-}
-.btn-primary-light:hover,
-.btn-primary-light:focus {
-  color: var(--black-color);
-  background-color: var(--primary-light-color);
-}
-
 /* Navbar */
 .navbar {
   padding: 12px 0;
@@ -102,7 +73,7 @@ a:hover {
 section.home {
   padding-top: 5rem;
   padding-bottom: 4rem;
-  background-image: url(assets/bg.png);
+  background-image: url(assets/bg-landing.png);
 }
 section.home .text-home-bold {
   font-size: var(--biggest-font-size);
