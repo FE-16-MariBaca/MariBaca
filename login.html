@@ -10,27 +10,62 @@
   <body>
     <div class="login">
       <div class="row">
-        <div class="col-6 col-vector vh-100 d-flex align-items-center justify-content-center">
-          <img src="assets/vector1.png" alt="Vector" class="w-50" />
+        <div class="col-12 col-lg-6 col-vector vh-100 d-none d-lg-flex justify-content-center align-items-center">
+          <img src="assets/vector1.png" alt="Vector" class="w-50 h-50" />
         </div>
-        <div class="col-6">
+        <div class="col-12 col-lg-6">
           <div class="container-login">
             <h1 class="fw-bold fs-1 mt-5">
               Selamat Datang di <a href="#" class="logo text-decoration-none">Mari<span>Baca</span></a>
             </h1>
             <p class="fw-light fs-5">Silakan isi data kamu yah!</p>
-            <form class="mt-5">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-demo float-end" data-bs-toggle="modal" data-bs-target="#exampleModal">Akun Demo</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Akun Demo</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-3">
+                        <p>Email</p>
+                      </div>
+                      <div class="col-9">
+                        <p>: megawati@gmail.com</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-3">
+                        <p>Password</p>
+                      </div>
+                      <div class="col-9">
+                        <p>: 123456</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <form action="index.html" method="post" name="form" onsubmit="return validated()" class="mt-5">
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" />
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" autocomplete="off" />
+                <div id="email_error" class="alert alert-danger text-center p-2 my-2" role="alert">Mohon masukkan email Anda</div>
               </div>
               <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Kata Sandi</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" />
+                <label for="password" class="form-label">Kata Sandi</label>
+                <input type="password" class="form-control" id="password" name="password" />
+                <div id="pass_error" class="alert alert-danger text-center p-2 my-2" role="alert">Mohon masukkan password Anda</div>
               </div>
               <div class="mb-3 form-forget text-end">
-                <a class="text-decoration-none forget-password">Lupa kata sandi?</a>
+                <a href="#" class="text-decoration-none forget-password">Lupa kata sandi?</a>
               </div>
+              <div id="user_not_found" class="alert alert-danger text-center p-2 my-2" role="alert">Pengguna tidak ditemukan</div>
               <button type="submit" class="btn btn-login w-100 mt-4 fw-bold">Masuk</button>
               <p class="text-center fw-light fs-5 my-4">Atau</p>
               <button type="submit" class="btn btn-login-google w-100 fw-bold">Masuk dengan Google</button>
@@ -41,5 +76,6 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="loginRegister.js"></script>
   </body>
 </html>

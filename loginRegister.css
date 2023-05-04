@@ -1,6 +1,17 @@
 .container-login {
   margin: 0 70px;
 }
+.btn-demo {
+  background: transparent;
+  color: grey;
+  border: 2px solid grey;
+}
+.btn-demo:hover {
+  background: grey;
+  color: white;
+  border: 2px solid grey;
+  transition: 0.5s;
+}
 .col-vector {
   background-color: #f2ad73;
 }
@@ -40,4 +51,13 @@
 }
 .text-regist a {
   color: #db3635;
+}
+form #email_error,
+form #pass_error,
+form #user_not_found,
+form #regist_name_error,
+form #regist_email_error,
+form #regist_password_error,
+form #regist_valid_password_error {
+  display: none;
 }
