@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+.navbar-brand {
+    color: #f2ad73;
+    font-family: 'Poppins', sans-serif;
+  }
+.navbar-brand span {
+    color: #db3635;
+  }
+
+.card {
+    max-width: 200em;
+    flex-direction: row;
+}
+
+.card img{
+    max-width: fit-content;
+}
+
+.card .btn-read {
+    background: #db3635;
+    color: white;
+    border: 2px solid #db3635;
+  }
+  .card .btn-read:hover {
+    background: white;
+    color: #db3635;
+    border: 2px solid #db3635;
+    transition: 0.5s;
