@@ -1,0 +1,57 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* navbar */
+.navbar-brand {
+  color: #f2ad73;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar-brand span {
+  color: #db3635;
+}
+
+/* carousel */
+#carouselExample {
+  background-color: #f1f1f1;
+}
+
+.carousel-banner img {
+  border-radius: 55px;
+  height: 232px;
+  width: 1000px;
+}
+
+/* button */
+
+.btn-arrow-left {
+  border: none;
+  background-color: transparent;
+}
+.btn-arrow-right {
+  border: none;
+  background-color: transparent;
+}
+
+.btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+/* card */
+.card .btn-read {
+  background: #db3635;
+  color: white;
+  border: 2px solid #db3635;
+}
+.card .btn-read:hover {
+  background: white;
+  color: #db3635;
+  border: 2px solid #db3635;
+  transition: 0.5s;
+}
+/* footer */
+footer .social-media a {
+  color: black;
+}
