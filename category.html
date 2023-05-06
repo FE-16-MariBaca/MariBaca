@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Category | MariBaca</title>
+    <link rel="icon" href="assets/logo-maribaca.png" />
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="category.css" />
+    <!-- Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+    <!-- Link Box Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container d-flex justify-content-between">
+        <a class="navbar-brand fw-bold" href="#" data-aos="zoom-out-right" data-aos-mirror="false">Mari<span>Baca</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" data-aos="zoom-out-left" data-aos-mirror="false">
+          <ul class="navbar-nav mx-auto fw-semibold">
+            <li class="nav-item pe-3">
+              <a class="nav-link" href="homePage.html">Home</a>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link active" aria-current="page" href="#">Category</a>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link" href="#">Telusuri</a>
+            </li>
+            <li class="nav-item dropdown d-md-none">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Megawati </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="user navbar-nav d-none d-md-block">
+          <div class="btn-group">
+            <button type="button" class="btn">
+              <img src="assets/avatar1.png" alt="avatar" class="w-75" />
+            </button>
+            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><p class="fw-medium text-center mt-1">Hello, Megawati</p></li>
+              <li><a class="dropdown-item text-center" href="index.html">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+    <!-- Kategori -->
+    <section id="category">
+      <div class="container">
+        <div class="search-category">
+          <div class="row">
+            <div class="col-12 col-md-9">
+              <p class="fw-semibold fs-3 mt-5">Cari Kategori</p>
+            </div>
+            <div class="col-12 col-md-3">
+              <form class="d-flex mt-md-5" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-dark" type="submit"><i class="bx bx-search-alt-2"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="my-5">
+          <div class="row row-cols-1 row-cols-sm-2 g-5 list-category">
+            <!-- <div class="col">
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/all-category.jpg" class="img-fluid rounded-start w-100" alt="Semua" />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body h-100 d-flex align-items-center justify-content-center">
+                      <a href="#" class="fw-medium fs-3 text-decoration-none">Semua</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/fantasy-category.jpg" class="img-fluid rounded-start w-100" alt="Semua" />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body h-100 d-flex align-items-center justify-content-center">
+                      <a href="#" class="fw-medium fs-3 text-decoration-none">Fantasy</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/education-category.jpg" class="img-fluid rounded-start w-100" alt="Semua" />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body h-100 d-flex align-items-center justify-content-center">
+                      <a href="#" class="fw-medium fs-3 text-decoration-none">Education</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/biography-category.jpg" class="img-fluid rounded-start w-100" alt="Semua" />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body h-100 d-flex align-items-center justify-content-center">
+                      <a href="#" class="fw-medium fs-3 text-decoration-none">Biography</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/history-category.jpg" class="img-fluid rounded-start w-100" alt="Semua" />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body h-100 d-flex align-items-center justify-content-center">
+                      <a href="#" class="fw-medium fs-3 text-decoration-none">History</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="assets/cerpen-category.jpg" class="img-fluid rounded-start w-100" alt="Semua" />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body h-100 d-flex align-items-center justify-content-center">
+                      <a href="#" class="fw-medium fs-3 text-decoration-none">Cerpen</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Kategori -->
+    <!-- Footer -->
+    <footer>
+      <div class="container d-flex justify-content-between">
+        <p></p>
+        <p>© 2023 Reserved by MariBaca | Powered by Skilvul</p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="category.js"></script>
+  </body>
+</html>

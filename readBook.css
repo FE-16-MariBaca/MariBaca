@@ -1,0 +1,29 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar-brand {
+  color: #f2ad73;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar-brand span {
+  color: #db3635;
+}
+.social-media a {
+  color: black;
+}
+.banner {
+  background: #6c691f;
+}
+.title {
+  border-bottom: 2px solid #f2ad73;
+}
+.chapter {
+  color: #db3635;
+}
+.paragraph {
+  text-align: justify;
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+}
